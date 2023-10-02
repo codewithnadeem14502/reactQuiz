@@ -1,5 +1,16 @@
 # React + Vite
 
+Here i am using json server to fetch the question data 
+
+i) clone this repo  <br>
+
+ii) npm i  <br>
+
+iii) npm run server -> to run server <br>
+
+iv) npm run dev -> to run application <br>
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
