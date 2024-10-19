@@ -85,7 +85,7 @@ const App = () => {
   const questionlength = questions.length;
   const maxPoints = questions.reduce((prev, cur) => prev + cur.points, 0);
   useEffect(function () {
-    fetch("http://localhost:9000/questions")
+    fetch("https://react-quiz-five-jet.vercel.app/questions")
       .then((res) => res.json())
       .then((data) => dispatch({ type: "dataRecevied", payload: data }))
       .catch((err) => dispatch({ type: "dataFailed" }));
